@@ -1,5 +1,5 @@
 module.exports = {
   '**/*.ts': (fileNames) => [
-    `tsc --noEmit ${fileNames.join(" ")}`
+    `tsc --noEmit -strict ${fileNames.join(" ")}`
   ]
 }
