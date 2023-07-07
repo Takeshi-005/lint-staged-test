@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.2",
+    "lint-staged": "9.4.0",
     "typescript": "5.1.3"
   }
 }

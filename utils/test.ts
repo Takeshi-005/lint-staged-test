@@ -1,3 +1,3 @@
-export const test = (first) => {
-  return first
+export const test = (str: string) => {
+  return str
 }
