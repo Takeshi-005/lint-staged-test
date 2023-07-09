@@ -1,0 +1,91 @@
+{
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.editor.enablePreview": false,
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "eslint.validate": [
+    "vue",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "stylelint.enable": true,
+  "eslint.format.enable": true,
+  // ファイル保存時、prettier による自動フォーマット
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // デフォルトのフォーマッタを prettier に設定
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.formatOnType": false,
+  "stylelint.validate": [
+    "css",
+    "html",
+    "scss",
+    "less"
+  ],
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": ""
+    }
+  ],
+  // "typescript.updateImportsOnFileMove.enabled": "always",
+  "vetur.validation.template": false,
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  // "typescript.tsserver.trace": "verbose",
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "laravel_goto_view.folders": {
+    "default": "/resources/views",
+    "js": "/resources/js/Pages",
+    "vendor": "/resources/views/vendor"
+  },
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "files.watcherExclude": {
+    "**/__test_data.ts": true
+  },
+  "files.autoSaveDelay": 500,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.bracketPairColorization.enabled": true,
+  // // 追記
+  // // css, scss ファイルは Stylelint でフォーマットするため、Pretteir によるフォーマットを回避
+  // // VS Code の CSS, SCSS の Lint オフ
+  // // Stylelint とのバッティング回避
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "stylelint.snippet": [
+    "css",
+    "less",
+    "postcss",
+    "scss"
+  ],
+  "compile-hero.disable-compile-files-on-did-save-code": false,
+  "git.ignoreLimitWarning": true,
+  "references.preferredLocation": "view",
+  "eslint.workingDirectories": [
+    { "mode": "auto" }
+  ],
+  "css.format.newlineBetweenSelectors": false
+}
